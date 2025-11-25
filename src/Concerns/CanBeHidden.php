@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Concerns;
+namespace Patrickms2\FilamentMasterdetail\Concerns;
 
 use Closure;
 

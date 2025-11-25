@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Components;
+namespace Patrickms2\FilamentMasterdetail\Components;
 
 use Closure;
 use Filament\Support\Components\Component;
@@ -14,7 +14,7 @@ use Filament\Tables\Columns\Concerns\{BelongsToLayout,
     HasName,
     HasRecord,
     HasRowLoopObject};
-use Rodrigofs\FilamentMasterdetail\Concerns\{CanBeHidden, CanFormatState};
+use Patrickms2\FilamentMasterdetail\Concerns\{CanBeHidden, CanFormatState};
 
 final class DataColumn extends Component
 {

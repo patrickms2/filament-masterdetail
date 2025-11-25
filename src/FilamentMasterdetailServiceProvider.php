@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail;
+namespace Patrickms2\FilamentMasterdetail;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
@@ -23,6 +23,6 @@ final class FilamentMasterdetailServiceProvider extends PackageServiceProvider
         FilamentAsset::register([
             Css::make('filament-masterdetail', __DIR__ . '/../dist/filament-masterdetail.css'),
 
-        ], 'rodrigofs/filament-masterdetail');
+        ], 'patrickms2/filament-masterdetail');
     }
 }

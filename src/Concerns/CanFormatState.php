@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Concerns;
+namespace Patrickms2\FilamentMasterdetail\Concerns;
 
 use Carbon\Carbon;
 use Closure;
@@ -11,7 +11,7 @@ use Filament\Tables\Table;
 use Filament\Support\Contracts\HasLabel as LabelInterface;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\{HtmlString, Number, Str};
-use Rodrigofs\FilamentMasterdetail\Components\DataColumn;
+use Patrickms2\FilamentMasterdetail\Components\DataColumn;
 
 trait CanFormatState
 {

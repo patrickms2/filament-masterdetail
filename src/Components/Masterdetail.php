@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Components;
+namespace Patrickms2\FilamentMasterdetail\Components;
 
 use Closure;
 use Filament\Actions\Concerns\CanOpenModal;
@@ -17,7 +17,7 @@ use Filament\Support\Concerns\{HasDescription, HasHeading, HasIcon, HasIconColor
 use Filament\Tables\Columns\Concerns\HasName;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\{HtmlString, Str};
-use Rodrigofs\FilamentMasterdetail\Concerns\{CanDeleteAction, CanEditAction, CanAddAction, HasRelationship, HasTable};
+use Patrickms2\FilamentMasterdetail\Concerns\{CanDeleteAction, CanEditAction, CanAddAction, HasRelationship, HasTable};
 
 final class Masterdetail extends Component implements HasHeaderActions
 {

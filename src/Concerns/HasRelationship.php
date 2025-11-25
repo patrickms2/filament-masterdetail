@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Concerns;
+namespace Patrickms2\FilamentMasterdetail\Concerns;
 
 use Closure;
 use Filament\Forms\Contracts\HasForms;
 use Illuminate\Database\Eloquent\{Builder, Collection, Model};
 use Illuminate\Database\Eloquent\Relations\{BelongsToMany, HasMany, HasOneOrMany, Pivot};
-use Rodrigofs\FilamentMasterdetail\Components\{DataColumn, Masterdetail};
+use Patrickms2\FilamentMasterdetail\Components\{DataColumn, Masterdetail};
 use Filament\Support\Contracts\TranslatableContentDriver;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;

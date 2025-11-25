@@ -2,14 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Rodrigofs\FilamentMasterdetail\Concerns;
-
+namespace Patrickms2\FilamentMasterdetail\Concerns;
 use Closure;
 use Filament\Forms\Components\Actions\Action;
 use Filament\Forms\Form;
 use Filament\Support\Enums\IconSize;
 use Illuminate\Support\{Arr, Str};
-use Rodrigofs\FilamentMasterdetail\Components\Masterdetail;
+use Patrickms2\FilamentMasterdetail\Components\Masterdetail;
 
 trait CanEditAction
 {
