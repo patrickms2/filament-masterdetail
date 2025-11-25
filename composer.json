@@ -1,5 +1,5 @@
 {
-    "name": "rodrigofs/filament-masterdetail",
+    "name": "patrickms2/filament-masterdetail",
     "description": "Filament plugin designed specifically for managing Laravel HasMany relationships without relying on Filament's default repeater field, using instead a dedicated modal and table-based form interface.",
     "license": "MIT",
     "autoload": {
