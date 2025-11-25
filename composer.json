@@ -9,8 +9,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rodrigofs\\FilamentMasterdetail\\Tests\\": "tests/src",
-            "Rodrigofs\\FilamentMasterdetail\\Tests\\datababe\\factories\\": "tests/database/factories"
+            "Patrickms2\\FilamentMasterdetail\\Tests\\": "tests/src",
+            "Patrickms2\\FilamentMasterdetail\\Tests\\datababe\\factories\\": "tests/database/factories"
         }
     },
     "authors": [
@@ -57,7 +57,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rodrigofs\\FilamentMasterdetail\\FilamentMasterdetailServiceProvider"
+                "Patrickms2\\FilamentMasterdetail\\FilamentMasterdetailServiceProvider"
             ]
         }
     }
